@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif, inherit;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo_1.jpeg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    padding-bottom: 0px;
+    padding-bottom: 150px;
+    overflow: auto;
+}
+
+.main-nav{
+    list-style: none;
+    padding: 30px;
+    padding-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+    background-color: #DD614A;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white;
+}
+
+/*.logo img{
+    width: 75px;
+    height: auto;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+}*/
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.hero h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 175px;
+}
+
+.hero p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.button{
+    margin-top: 80px;
+    margin-left: 440px;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover{
+    background-color: #DD614A;
+    transition: all 0.2s ease-in;
+}
+
+.btn-two{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover{
+    background-color: #DD614A;
+    transition: all 0.2s ease-in;
+}
+
+.container_1{
+    margin-top: 75px;
+    padding: 20px;
+}
+
+
+
+.container_1 h1{
+    position: relative;
+    font-size: 45px;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.passage p{
+    margin-right: 500px;
+    margin-bottom: 25px;
+    text-indent: 10px;
+    font-size: 15px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+
+.container_1 img{
+    float: right;
+    margin-left: 10px;
+    clear: both;
+}
+
+.deskset{
+    margin-top: 25px;
+    padding: 0 45px;
+}
+
+.passage2{
+    font-size: 15px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+
+.container_2{
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.image{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.infobox{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: darkgray;
+}
+
+.container_2:hover .infobox{
+    opacity: 0.2;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+}
+
+.slide{
+    position: relative;
+    width: 20%;
+    float: left;
+    height: 100vh;
+}
+
+.gallery{
+    text-align: center;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(workplace5.jpeg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
